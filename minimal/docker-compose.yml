@@ -42,8 +42,11 @@ services:
       CONNECT_REST_PORT: 8083
       CONNECT_GROUP_ID: "kafka-connect"
       CONNECT_CONFIG_STORAGE_TOPIC: "_connect-configs"
+      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: 1
       CONNECT_OFFSET_STORAGE_TOPIC: "_connect-offsets"
+      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: 1
       CONNECT_STATUS_STORAGE_TOPIC: "_connect-status"
+      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: 1
       CONNECT_KEY_CONVERTER: "io.confluent.connect.protobuf.ProtobufConverter"
       CONNECT_VALUE_CONVERTER: "io.confluent.connect.protobuf.ProtobufConverter"
       CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE: false
