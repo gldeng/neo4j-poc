@@ -1,0 +1,4 @@
+{
+    "schemaType": "JSON",
+    "schema": "{\"type\": \"object\", \"properties\": {\"contract\": {\"type\": \"string\"}, \"tx_id\": {\"type\": \"string\"}, \"call_path\": {\"type\": \"string\"}, \"symbol\": {\"type\": \"string\"}, \"from\": {\"type\": \"string\"}, \"to\": {\"type\": \"string\"}, \"amount\": {\"type\": \"string\"}, \"memo\": {\"type\": \"string\"}}}"
+}
