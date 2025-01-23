@@ -1,0 +1,1 @@
+docker exec -it postgres psql -U postgres -d demo -c "SELECT * FROM users;"

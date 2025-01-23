@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d @connect-config/postgres-sink.json http://localhost:8083/connectors
