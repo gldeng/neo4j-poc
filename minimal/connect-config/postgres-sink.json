@@ -9,7 +9,7 @@
       "connection.password": "postgres",
       "auto.create": "true",
       "insert.mode": "insert",
-      "key.converter": "org.apache.kafka.connect.protobuf.ProtobufConverter",
-      "value.converter": "org.apache.kafka.connect.protobuf.ProtobufConverter"
+      "key.converter": "io.confluent.connect.protobuf.ProtobufConverter",
+      "value.converter": "io.confluent.connect.protobuf.ProtobufConverter"
     }
   }
